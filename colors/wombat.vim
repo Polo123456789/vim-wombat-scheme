@@ -3,6 +3,8 @@
 " Last Change: 2014-07-05
 "
 " Modified version by
+"  Pablo Sanchez (pabsan02@gmail.com)
+" Modified version by
 "  Adam Stankiewicz (sheerun@sher.pl)
 " Modified version of wombat for 256-color terminals by
 "  David Liang (bmdavll@gmail.com)
@@ -73,5 +75,5 @@ hi! link CursorColumn CursorLine
 hi! link NonText LineNr
 
 " Awesome 80 characters delemiter
-execute "set colorcolumn=" . join(range(81,335), ',')
+execute "set colorcolumn=80"
 hi ColorColumn guibg=#262626 ctermbg=235
