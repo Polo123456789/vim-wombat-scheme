@@ -76,4 +76,5 @@ hi! link NonText LineNr
 
 " Awesome 80 characters delemiter
 execute "set colorcolumn=80"
-hi ColorColumn guibg=#262626 ctermbg=235
+" ctermbg=58 guibg=#5f5f00
+hi ColorColumn ctermfg=209 guifg=#ff875f
